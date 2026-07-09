@@ -21,7 +21,7 @@ function normalizeUsername(username) {
  * @param {number} [minLength=8] - Minimum allowed length
  * @returns {boolean} True when the password is long enough
  */
-function isValidPassword(password, minLength = 10) {
+function isValidPassword(password, minLength = 12) {
   return typeof password === "string" && password.length >= minLength;
 }
 
